@@ -191,9 +191,9 @@ local function VZCBO_fake_script() -- Fhsfs4564.Scripts
 	-- Prestigio
 	
 	script.Parent.Frame.Prestigeon.MouseButton1Click:Connect(function()
-		_G.Pretigio = true
+		_G.Prestigio = true
 	
-		while _G.Pretigio == true do wait()
+		while _G.Prestigio == true do wait()
 			local args = {
 				[1] = "130ss1"
 			}
