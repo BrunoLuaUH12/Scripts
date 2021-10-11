@@ -214,6 +214,8 @@ local function VZCBO_fake_script() -- Fhsfs4564.Scripts
 		while _G.Tp == true do wait(1)
 			local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 			local location = CFrame.new(-1411, 2491, -1994)
+			local humanoid = game.Players.LocalPlayer.Character.Humanoid
+			humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
 			wait(0.1)
 			pl.CFrame = location
 		end
