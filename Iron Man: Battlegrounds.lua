@@ -37,7 +37,7 @@ Fundo.Name = "Fundo"
 Fundo.Parent = grjk546
 Fundo.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Fundo.BackgroundTransparency = 0.550
-Fundo.Position = UDim2.new(0.151117966, 0, 0.230674818, 0)
+Fundo.Position = UDim2.new(0.61968261, 0, 0.169325128, 0)
 Fundo.Size = UDim2.new(0, 472, 0, 527)
 
 Frame.Parent = Fundo
@@ -193,7 +193,7 @@ UICorner_10.Parent = minimizado
 
 -- Scripts:
 
-local function LDHNUS_fake_script() -- Fundo.Drag 
+local function TUDETMX_fake_script() -- Fundo.Drag 
 	local script = Instance.new('LocalScript', Fundo)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -236,8 +236,8 @@ local function LDHNUS_fake_script() -- Fundo.Drag
 		end
 	end)
 end
-coroutine.wrap(LDHNUS_fake_script)()
-local function SNDK_fake_script() -- grjk546.Scripts 
+coroutine.wrap(TUDETMX_fake_script)()
+local function BWLD_fake_script() -- grjk546.Scripts 
 	local script = Instance.new('LocalScript', grjk546)
 
 	-- Minimizar
@@ -293,8 +293,8 @@ local function SNDK_fake_script() -- grjk546.Scripts
 	end)
 	
 end
-coroutine.wrap(SNDK_fake_script)()
-local function MXZV_fake_script() -- minimizado.Drag2 
+coroutine.wrap(BWLD_fake_script)()
+local function TJTHBRT_fake_script() -- minimizado.Drag2 
 	local script = Instance.new('LocalScript', minimizado)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -337,4 +337,4 @@ local function MXZV_fake_script() -- minimizado.Drag2
 		end
 	end)
 end
-coroutine.wrap(MXZV_fake_script)()
+coroutine.wrap(TJTHBRT_fake_script)()
